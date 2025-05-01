@@ -54,7 +54,7 @@ function playGame() {
                 humanScore++;
             }
         }
-        alert (`You Chose: ${humanChoice}\nThe Computer Chose: ${computerChoice}\n${result}\nScore: ${humanScore} | ${computerScore}`);
+        console.log(`You Chose: ${humanChoice}\nThe Computer Chose: ${computerChoice}\n\n${result}\n\nYour Score: ${humanScore}\nComputer's Score: ${computerScore}`);
     }
 
     for (let i = 1; i <= 5; i++) {

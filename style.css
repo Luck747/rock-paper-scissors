@@ -1,0 +1,10 @@
+body {
+    background: rgb(39, 39, 39);
+    font-family: "Arial", sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin: 20px;
+}
